@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #c9c1c1;
+    color: #db4e0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #a19f9f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+/* Bio Section */
+.bio {
+    margin-bottom: 20px;
+}
+
+.bio h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #530202;
+}
+
+.bio p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Contact Section */
+.contact h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    color: #a80606;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 10px 0;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #0077b5;
+    transition: color 0.3s;
+}
+
+.contact ul li a:hover {
+    color: #005582;
+}
